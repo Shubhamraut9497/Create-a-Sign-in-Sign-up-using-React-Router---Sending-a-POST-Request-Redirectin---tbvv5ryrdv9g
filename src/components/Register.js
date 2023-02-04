@@ -43,3 +43,15 @@ function Register({ emailChange, passwordChange, setNavigate }) {
   )
 }
 export default Register;
+      
+
+      <br />
+      <div>
+        Already a User?
+        <Link to="/"><button id='register-to-login'>Login</button></Link>
+      </div>
+
+    </div>
+  )
+}
+export default Register;
